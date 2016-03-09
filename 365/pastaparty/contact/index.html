@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="../style.css">
+	<title>Welcome to Pasta Party!</title>
+</head>
+<body>
+	<div id="container">
+		<div class="title">
+			<h1>Pasta Party</h1>
+		</div>
+		<div id="line"></div>
+		<ul id="navigation">
+		  <li><a href="http://christophermathy.com/365/pastaparty/">Home</a></li>
+		  <li><a href="http://christophermathy.com/365/pastaparty/about/">About</a></li>
+		  <li><a id="current" href="http://christophermathy.com/365/pastaparty/contact/">Contact</a></li>
+		</ul>
+		<h2>Contact Us!</h2>
+		<p id="contact">Contact us if you have any comments questions or concerns. Thank You!</p>
+
+		<form id="emailForm">
+		<input class="formText" type="text" name="name" placeholder="Name"><br>
+		<input class="formText" type="text" name="email" placeholder="Email"><br><br>
+		<textarea id="formMessage" name="message" placeholder="Message"></textarea><br><br>
+		<input id="button" type="button" onclick="submitForm()" value="Send!">
+		</form>
+
+		<script src="emailscript.js"></script>
+		
+	</div>
+</body>
+</html>
