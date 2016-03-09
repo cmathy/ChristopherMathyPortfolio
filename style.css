@@ -1,0 +1,134 @@
+body {
+    background-color: #353535;
+    font-family: "Arial",  sans-serif;
+    margin: 0;
+}
+
+#container {
+    min-width: 423px;
+    max-width: 1100px;
+    margin: 15px;
+}
+
+@media screen and (min-width: 1100px) {
+    #container {
+        padding: 15px;
+        margin: 0 auto;
+    }
+}
+
+#header {
+    margin-bottom: 10px;
+}
+
+#rule {
+    background-color: white;
+    height: 3px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-weight: normal;
+    color: lightblue;
+    font-size: 3em;
+    margin: 0;
+}
+
+h2 {
+    font-weight: normal;
+    color: lightblue;
+    line-height: 100px;
+    font-size: 2.5em;
+    text-align: center;
+    margin: 0;
+}
+
+h3 {
+    font-weight: normal;
+    color: white;
+    margin: 0;
+    margin-top: 10px;
+}
+
+h4 {
+    display: inline-block;
+    font-weight: bold;
+    color: black;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+p {
+    display: inline-block;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+a {
+    display: inline-block;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+#contentwrapper {
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.content {
+    background-color: lightblue;
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.cover {
+    position: relative;
+    right: 10%;
+    height: 100%;
+    width: 160%;
+}
+
+.pic {
+    width: 160px;
+    height: 100px;
+}
+
+#test {
+    padding-right: 15px;
+}
+
+#banner {
+    overflow: hidden;
+    height: 200px;
+    width: 100%;
+}
+
+#bannerTxtBg {
+    background-color: rgba(0,0,0,0.8);
+    position: relative;
+    width: 100%;
+    height: 100px;
+    margin: 0;
+    bottom: 150px;
+}
+
+#bannerPic {
+    position: relative;
+    left: 50%;
+    top: 200px;
+    -webkit-transform: translate(-50%, -100%);
+    width: 100%;
+    height: auto;
+}
+
+#desc {
+    position: relative;
+    bottom: 100px;
+    margin: 0;
+    margin-top: 15px;
+    padding: 15px 15px 0 15px;
+    background-color: rgba(255,255,255,0.8);
+}
